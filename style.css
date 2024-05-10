@@ -1,24 +1,52 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  border: 4px black solid;
+  height: 60px;
+  width: auto;
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 0px;
+}
+
 body {
-  background-color: sandybrown;
+  background-color: white;
 }
 
 h1 {
-  text-align: center;
+  text-align: right;
   color: white;
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
   text-shadow: 20px;
+  background-color: lightseagreen;
+  border: 4px black solid;
+  padding: 10px;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.lasagna {
+  background-color: aquamarine;
+}
+
+.pizza {
+  background-color: turquoise;
+}
+
+.spaghetti {
   background-color: lightseagreen;
 }
 
-ul {
-  font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  color: blanchedalmond;
-}
-
-a {
-  color: black;
+.tiramisu {
+  background-color: teal;
 }
